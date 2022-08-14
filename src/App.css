@@ -1,7 +1,14 @@
 .App {
   text-align: center;
 }
-
+.apps h1{
+  background-color:  black;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 0%;
+   padding: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +43,80 @@
     transform: rotate(360deg);
   }
 }
+ 
+ 
+ 
+/* CSS */
+.btn1 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 5rem;
+  height: 2rem;
+}
+
+.btn1:hover,
+.btn1:focus {
+  opacity: .75;
+}
+.del:hover,
+.del:focus {
+  opacity: .75;
+}
+.del:hover
+  {
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+}
+ul li{
+  width: 60%;
+  border: #222  ;
+  border-style: groove;
+  position: relative;
+
+
+}
+.del{
+  position: left;
+ right: 0%;
+ position: absolute;
+}
+.lid{
+  
+  left: 0%;
+  position: absolute;
+  align-items: flex-start;
+}
+.rname{
+  left: 50%;
+  position: absolute;
+ }
+ .add{
+   margin-bottom: 2rem;
+   left: 0%;
+
+    
+ }
+ .edit{
+margin-left: 0%; }
